@@ -104,7 +104,7 @@ During the completion of this activity, we encountered several challenges:
 
 4. **Data Export**: Exporting data in the desired format for analysis or sharing presented some complexities.
 
-5. **Python Syntax: Developing and debugging Python code to manipulate and transform data also posed challenges, especially when dealing with complex data structures and transformations.
+5. **Python Syntax**: Developing and debugging Python code to manipulate and transform data also posed challenges, especially when dealing with complex data structures and transformations.
 ---
 
 ## 8. References
