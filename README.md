@@ -2,7 +2,7 @@
 Project 2
 **Readme**
 
-# Data Analysis Project: Using Python to Transform Excel Data into a PostgreSQL Database
+# ETL Project
 
 *Authors: HMosa and TBolima*
 
@@ -23,13 +23,12 @@ Project 2
 
 ## 1. Introduction
 
-In this data analysis project, we, HMosa and TBolima, present a comprehensive guide to using Python for transforming data from Excel files into a PostgreSQL database. We detail the tools employed, the research question addressed, the SQL syntax utilized, and the relevance of this activity in the context of data analysis.
-
+This ETL project includes building of an ETL pipeline using Python, Pandas, and Python dictionary methods to extract and transform the data. After the tranforamtion, four CSV files created and uploaded to Psotgres database. 
 ---
 
 ## 2. Tools Used
 
-### Tools for Data Analysis
+### Tools for ETL
 - **Python**: Python, the programming language, served as the foundation for our data analysis project.
 - **Pandas**: We harnessed the power of the Pandas library for data manipulation, including reading, cleaning, and transforming data.
 
@@ -47,20 +46,20 @@ In this data analysis project, we, HMosa and TBolima, present a comprehensive gu
 
 ## 3. Data Sources
 
-We utilized two Excel files, namely `contacts.xlsx` and `crowdfunding.xlsx`, as the primary sources of our data. From these files, we extracted relevant information and created four CSV files:
+We utilized two Excel files, namely `contacts.xlsx` and `crowdfunding.xlsx`, as the primary sources of our data. From these files, we performed ETL and created created four CSV files as per the requirements.
 
 1. `category.csv`: Contains category data extracted from `crowdfunding.xlsx`.
 2. `subcategory.csv`: Contains subcategory data extracted from `crowdfunding.xlsx`.
 3. `contacts.csv`: Contains contact information extracted from `contacts.xlsx`.
 4. `campaign.csv`: Contains campaign data derived from `crowdfunding.xlsx`.
 
-These CSV files were subsequently loaded into a PostgreSQL database for further analysis.
+These CSV files were subsequently loaded into a PostgreSQL database.
 
 ---
 
 ## 4. Research Question
 
-**Research Question**: *How can we effectively use Python to transform data from Excel files into a structured PostgreSQL database, perform data manipulation techniques, and explore insights within the dataset?*
+**Research Question**: *How can we effectively use Python, Pandas and Python dictionary in building ETL pipeline for transforming of data from Excel files into a structured PostgreSQL database, perform data manipulation techniques, and explore insights within the dataset?*
 
 ---
 
@@ -85,7 +84,7 @@ These CSV files were subsequently loaded into a PostgreSQL database for further 
 
 This activity holds relevance for a wide range of individuals and professionals, including:
 
-- **Data Analysts**: Learning to clean and structure data from Excel files into a database is essential for performing advanced data analysis.
+- **Data Analysts**: Learning to clean and structure data from Excel files into a database is essential for performing further advanced data analysis.
 - **Database Administrators**: Understanding how to create and manage a structured database schema is fundamental in database management.
 - **Researchers**: Researchers across domains can benefit from these skills to efficiently manage and analyze data for their studies.
 - **Students and Learners**: This activity serves as a valuable learning experience for those acquiring data analysis and database management skills.
@@ -111,10 +110,10 @@ During the completion of this activity, we encountered several challenges:
 
 Our research and problem-solving efforts drew upon the following resources:
 
-- **GitHub**: We explored code repositories, examples, and solutions to enhance our understanding and implementation.
+- **Class activity solutions** utilized codes from class activity solutions provided by the instructors. 
 - **Stack Overflow**: This platform played a crucial role in troubleshooting and finding solutions to specific coding challenges.
 - **General Internet Searches**: Extensive internet searches provided additional information and insights relevant to our project.
 
 ---
 
-This README document has provided an extensive overview of our data analysis project, focusing on the use of Python, the tools used, data sources, research question, SQL syntax, relevance, challenges faced, and references. We hope this comprehensive guide proves helpful to those interested in similar data analysis endeavors.
+This README document has provided an extensive overview of ETL project, focusing on the use of Python, the tools used, data sources, research question, SQL syntax, relevance, challenges faced, and references. We hope this comprehensive guide proves helpful to those interested in similar data analysis endeavors.
