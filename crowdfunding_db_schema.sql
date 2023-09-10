@@ -51,8 +51,17 @@ FOREIGN KEY (category_id) REFERENCES category(category_id),
 FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
 ); 
 
+--Verify the table creation by running SELECT 
+ SELECT * FROM campaign;
+ SELECT * FROM category;
+ SELECT * FROM contacts;
+ SELECT * FROM subcategory;
 
- select * from campaign;
- select * from category;
- select * from contacts;
- select * from subcategory;
+--Import each CSV file into its corresponding SQL table (Import/Export wizard)
+---Verify that each table has the correct data
+ SELECT * FROM campaign;
+ SELECT * FROM category;
+ SELECT * FROM contacts;
+ SELECT * FROM subcategory;
+
+
