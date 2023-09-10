@@ -23,7 +23,8 @@ Project 2
 
 ## 1. Introduction
 
-This ETL project includes building of an ETL pipeline using Python, Pandas, and Python dictionary methods to extract and transform the data. After the tranforamtion, four CSV files created and uploaded to Psotgres database. 
+  - This ETL project includes building of an ETL pipeline using Python, Pandas, and Python dictionary methods to extract and transform the data. After the tranforamtion, four CSV 
+    files created and uploaded to Psotgres database. 
 ---
 
 ## 2. Tools Used
