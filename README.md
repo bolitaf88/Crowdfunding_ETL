@@ -32,6 +32,7 @@ Project 2
 ### Tools for ETL
 - **Python**: Python, the programming language, served as the foundation for our data analysis project.
 - **Pandas**: We harnessed the power of the Pandas library for data manipulation, including reading, cleaning, and transforming data.
+- **NumPy**
 
 ### Database Management
 - **PostgreSQL**: We employed PostgreSQL, an open-source relational database management system, to create, store, and manage our structured data.
@@ -60,25 +61,31 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 
 ## 4. Research Question
 
-**Research Question**: *How can we effectively use Python, Pandas and Python dictionary in building ETL pipeline for transforming of data from Excel files into a structured PostgreSQL database, perform data manipulation techniques, and explore insights within the dataset?*
-
+**Research Question**: *How can we effectively use Python, Pandas and Python dictionary to build ETL pipelines to transform xlsx files into PostgreSQL databases ?  
 ---
 
 ## 5. Syntax and Queries
 
-### Data Loading and Transformation
-- We used Python and Pandas to read Excel files and create CSV files.
-- Data manipulation techniques included splitting columns, changing data types, and reordering columns.
+### ETL 
+- We used Python and Pandas, Python dictionary to read Excel files and transform and create CSV files.
+   - Data manipulation techniques included splitting columns, changing data types, and reordering columns.
+
+
+### ERD
+- used QuickDBD to generate Entity-Relationship Diagram (ERD)
+![ERD](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/crowdfunding_ERD.png)
 
 ### Database Schema
-- SQL queries were used to create a well-defined database schema. We created tables for categories, subcategories, contacts, and campaigns.
+- Wrote SQL queries to create a well-defined database schema. We created tables for categories, subcategories, contacts, and campaigns.
 
-### Data Analysis
-- SQL SELECT statements enabled data retrieval for analysis from the PostgreSQL database.
+#### Verification
+- Run SELECT SQL statements to verify if the table schema created. 
 
-### Data Export
-- We exported the transformed data as CSV files, making it accessible for further analysis and sharing.
-
+### Data loading
+- Four csv files loaded into Postgresql using Import/Export wizard.
+  
+#### Verification
+- Run SELECT SQL statements to verify if the data loaded to the respective tables. 
 ---
 
 ## 6. Relevance of the Activity
@@ -96,25 +103,18 @@ This activity holds relevance for a wide range of individuals and professionals,
 
 During the completion of this activity, we encountered several challenges:
 
-1. **Data Integrity**: Ensuring data consistency and integrity when importing from Excel files required meticulous data type conversions and cleaning.
-
-2. **SQL Syntax**: Constructing SQL queries for creating complex schemas and retrieving specific data demanded precision and an understanding of database structures.
-
-3. **Database Setup**: Setting up a PostgreSQL database and establishing connections can be challenging for beginners.
-
-4. **Data Export**: Exporting data in the desired format for analysis or sharing presented some complexities.
-
-5. **Python Syntax**: Developing and debugging Python code to manipulate and transform data also posed challenges, especially when dealing with complex data structures and transformations.
+1.**Python code**: Developing and debugging Python code to manipulate and transform data posed challenges.
+2. **Github**: github collboration (creating branches, sharing codes...).  
 ---
 
 ## 8. References
 
 Our research and problem-solving efforts drew upon the following resources:
 
-- **Class activity solutions** utilized codes from class activity solutions provided by the instructors. 
-- **Stack Overflow**: This platform played a crucial role in troubleshooting and finding solutions to specific coding challenges.
+- **Class activity solutions**: utilized codes from class activity solutions provided by the instructors. 
+- **StackOverflow**: This platform played a crucial role in troubleshooting and finding solutions to specific coding challenges.
 - **General Internet Searches**: Extensive internet searches provided additional information and insights relevant to our project.
 
 ---
 
-This README document has provided an extensive overview of ETL project, focusing on the use of Python, the tools used, data sources, research question, SQL syntax, relevance, challenges faced, and references. We hope this comprehensive guide proves helpful to those interested in similar data analysis endeavors.
+This README document has provided an overview of ETL project, focusing on the use of Python, the tools used, data sources, research question, SQL syntax, relevance, challenges faced, and references. We hope this guide proves helpful to those interested in similar data analysis endeavors.
