@@ -86,8 +86,8 @@ These CSV files were subsequently loaded into a PostgreSQL database.
   
 #### Verification
 - Run SELECT SQL statements to verify if the data loaded to the respective tables. 
----
-
+![campaign](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/campaign.png)
+![combined_tables](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/combined_tables.png)
 ## 6. Relevance of the Activity
 
 This activity holds relevance for a wide range of individuals and professionals, including:
