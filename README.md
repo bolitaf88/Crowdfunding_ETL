@@ -69,7 +69,7 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 ### ETL 
 - We used Python and Pandas, Python dictionary to read Excel files and transform and create CSV files.
    - Data manipulation techniques included splitting columns, changing data types, and reordering columns.
-
+   - Check this link: https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/ETL_Mini_Project_TBolima_HMosa.ipynb
 
 ### ERD
 - used QuickDBD to generate Entity-Relationship Diagram (ERD)
@@ -77,6 +77,7 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 
 ### Database Schema
 - Wrote SQL queries to create a well-defined database schema. We created tables for categories, subcategories, contacts, and campaigns.
+  - Check this link: https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql
 
 #### Verification
 - Run SELECT SQL statements to verify if the table schema created. 
