@@ -85,8 +85,11 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 - Four csv files loaded into Postgresql using Import/Export wizard.
   
 #### Verification
-- Run SELECT SQL statements to verify if the data loaded to the respective tables. 
+- Run SELECT SQL statements to verify if the data loaded to the respective tables.
+    - Campaign table
 ![campaign](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/campaign.png)
+
+  - Category, Subcategory and Contacts tables
 ![cat_subcat_contactstables](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/cat_subcat_contact.png)
 
 ## 6. Relevance of the Activity
