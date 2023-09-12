@@ -73,6 +73,7 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 
 ### ERD
 - used QuickDBD to generate Entity-Relationship Diagram (ERD)
+- Code: https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/ERD_code_used_In_QuickDBD.txt
 ![ERD](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/crowdfunding_ERD.png)
 
 ### Database Schema
