@@ -107,8 +107,8 @@ This activity holds relevance for a wide range of individuals and professionals,
 
 During the completion of this activity, we encountered several challenges:
 
-- 1.**Python code**: Developing and debugging Python code to manipulate and transform data posed challenges.
-- 2. **Github**: github collboration (creating branches, sharing codes...).  
+- **Python code**: Developing and debugging Python code to manipulate and transform data posed challenges.
+- **Github**: github collboration (creating branches, sharing codes...).  
 ---
 
 ## 8. References
