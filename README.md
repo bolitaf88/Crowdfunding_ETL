@@ -67,9 +67,9 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 ## 5. Syntax and Queries
 
 ### ETL 
-- We used Python and Pandas, Python dictionary to read Excel files and transform and create CSV files.
+- We used Python, Pandas, Python dictionary to read Excel files and transform and create CSV files.
    - Data manipulation techniques included splitting columns, changing data types, and reordering columns.
-   - Check this link: https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/ETL_Mini_Project_TBolima_HMosa.ipynb
+- Check this link: https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/ETL_Mini_Project_TBolima_HMosa.ipynb
 
 ### ERD
 - used QuickDBD to generate Entity-Relationship Diagram (ERD)
