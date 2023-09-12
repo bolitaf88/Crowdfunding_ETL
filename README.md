@@ -41,7 +41,7 @@ Project 2
 - **GitHub**: GitHub served as our collaborative platform for code sharing and version control. It also enabled us to present our work in a structured manner.
 
 ### Research and Problem Solving
-- **Stack Overflow**: This platform proved invaluable for troubleshooting and finding solutions to specific coding challenges.
+- **StackOverflow**: This platform proved invaluable for troubleshooting and finding solutions to specific coding challenges.
 - **General Internet Searches**: We conducted extensive internet searches to gather additional information and insights relevant to our project.
 
 ---
@@ -61,7 +61,7 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 
 ## 4. Research Question
 
-**Research Question**: *How can we effectively use Python, Pandas and Python dictionary to build ETL pipelines to transform xlsx files into PostgreSQL databases ?  
+- **Research Question**: *How can we effectively use Python, Pandas and Python dictionary to build ETL pipelines to transform xlsx files into PostgreSQL databases ?  
 ---
 
 ## 5. Syntax and Queries
@@ -88,6 +88,7 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 - Run SELECT SQL statements to verify if the data loaded to the respective tables. 
 ![campaign](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/campaign.png)
 ![combined_tables](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/combined_tables.png)
+
 ## 6. Relevance of the Activity
 
 This activity holds relevance for a wide range of individuals and professionals, including:
@@ -103,8 +104,8 @@ This activity holds relevance for a wide range of individuals and professionals,
 
 During the completion of this activity, we encountered several challenges:
 
-1.**Python code**: Developing and debugging Python code to manipulate and transform data posed challenges.
-2. **Github**: github collboration (creating branches, sharing codes...).  
+- 1.**Python code**: Developing and debugging Python code to manipulate and transform data posed challenges.
+- 2. **Github**: github collboration (creating branches, sharing codes...).  
 ---
 
 ## 8. References
