@@ -48,7 +48,7 @@ Project 2
 
 ## 3. Data Sources
 
-We utilized two Excel files, namely `contacts.xlsx` and `crowdfunding.xlsx`, as the primary sources of our data. From these files, we performed ETL and created created four CSV files as per the requirements.
+We utilized two Excel files, namely `contacts.xlsx` and `crowdfunding.xlsx`, as the primary sources of our data. From these files, we performed ETL and created four CSV files as per the requirements.
 
 1. `category.csv`: Contains category data extracted from `crowdfunding.xlsx`.
 2. `subcategory.csv`: Contains subcategory data extracted from `crowdfunding.xlsx`.
