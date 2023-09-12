@@ -61,7 +61,7 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 
 ## 4. Research Question
 
-- **Research Question**: *How can we effectively use Python, Pandas and Python dictionary to build ETL pipelines to transform xlsx files into PostgreSQL databases ?  
+- **Research Question**: *How can we effectively use Python, Pandas and Python dictionary to build ETL pipelines to transform xlsx files and load into PostgreSQL databases ?  
 ---
 
 ## 5. Syntax and Queries
