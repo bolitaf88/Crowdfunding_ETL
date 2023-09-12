@@ -87,7 +87,7 @@ These CSV files were subsequently loaded into a PostgreSQL database.
 #### Verification
 - Run SELECT SQL statements to verify if the data loaded to the respective tables. 
 ![campaign](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/campaign.png)
-![combined_tables](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/combined_tables.png)
+![cat_subcat_contactstables](https://github.com/bolitaf88/Crowdfunding_ETL/blob/main/cat_subcat_contact.png)
 
 ## 6. Relevance of the Activity
 
